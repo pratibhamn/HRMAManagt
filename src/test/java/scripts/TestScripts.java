@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import generic.BasePage;
@@ -26,6 +27,7 @@ public class TestScripts extends BeseTest {
 		pi.setLastName("Fernandes");
 		pi.clickSaveBtn();
 		pi.verifyFirstName("Kevin");
+		Reporter.log("Hello",true);
 		
 	}
 	@Test(enabled=true)
