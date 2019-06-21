@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matchingOrangeHRM]]>
+    </line>
+    <line>
+      <![CDATA[List box is sorted]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18178" started-at="2019-06-20T03:05:41Z" finished-at="2019-06-20T03:05:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18178" started-at="2019-06-20T03:05:41Z" finished-at="2019-06-20T03:05:59Z">
+      <class name="scripts.TestScripts">
+        <test-method status="PASS" signature="preCondtion()[pri:0, instance:scripts.TestScripts@327471b5]" name="preCondtion" is-config="true" duration-ms="7729" started-at="2019-06-20T08:35:41Z" finished-at="2019-06-20T08:35:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondtion -->
+        <test-method status="PASS" signature="testListBoxSorted()[pri:0, instance:scripts.TestScripts@327471b5]" name="testListBoxSorted" duration-ms="9797" started-at="2019-06-20T08:35:49Z" finished-at="2019-06-20T08:35:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matchingOrangeHRM]]>
+            </line>
+            <line>
+              <![CDATA[List box is sorted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testListBoxSorted -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.TestScripts@327471b5]" name="postCondition" is-config="true" duration-ms="613" started-at="2019-06-20T08:35:58Z" finished-at="2019-06-20T08:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- scripts.TestScripts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
